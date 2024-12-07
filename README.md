@@ -18,19 +18,20 @@ Esses prompts orientam o assistente sobre como responder de maneira coerente e p
 Você pode testar o zap-gpt que está ativo neste [WhatsApp](https://wa.me/5551981995600)  </br>
 Confira mais detalhes do projeto no meu [Instagram](https://www.instagram.com/marcusdev_)
 
-## 🎉 Zap-GPT-Plus
+## 🎉 Zap GPT Client
 
-O **Zap-GPT-Plus** é uma versão aprimorada do Zap-GPT, oferecendo diversas funcionalidades extras e maior performance. Diferente de seu antecessor, ele não utiliza o wppconnect, corrigindo diversos bugs e problemas.
+O **Zap-GPT-Client** é uma versão aprimorada do Zap-GPT em formato executável com interface, oferecendo mais funcionalidades extras e maior performance. Diferente de seu antecessor, ele não utiliza o wppconnect, corrigindo diversos bugs e problemas.
 
 ### Funcionalidades Diferenciais
-- 🗣️ **Entendimento de Áudio e Imagem**: Agora a IA pode entender e responder a mensagens de áudio e imagem.
-- ⏸️ **Controle de Conversas**: É possível parar a IA em conversas específicas.
-- 🎯 **Respostas Personalizadas**: Você pode escolher quem a IA deve ou não responder.
-- 🔒 **Atualizações de Segurança**: Todas as atualizações de segurança mais recentes estão incluídas.
-- ⌨️ **Simulação de Digitação**: Para uma experiência mais humana, a IA simula a digitação.
-- 🚫 **Anti-spam / Anti-travazap**: Proteção contra spam e ataques de travamento.
+- 🗣️ **Entendimento de Áudio e Imagem:** Agora a IA pode entender e responder a mensagens de áudio e imagem.
+- ⏸️ **Controle de Conversas:** É possível parar a IA em conversas específicas.
+- 🎯 **Respostas Personalizadas:** Você pode escolher quem a IA deve ou não responder.
+- 🔒 **Atualizações de Segurança:** Todas as atualizações de segurança mais recentes estão incluídas.
+- ⌨️ **Simulação de Digitação:** Para uma experiência mais humana, a IA simula a digitação.
+- 🖥️ **Interface Intuitiva:** Uma interface amigável permite configurar facilmente todas as funcionalidades.
+- 🔗 **Conexão de Múltiplas Contas:** Conecte e gerencie várias contas de WhatsApp no mesmo cliente, sem custo adicional por número.
 
-Com o **Zap-GPT-Plus**, você tem mais controle, segurança e eficiência! 🚀
+Com o **Zap-GPT-Client**, você tem mais controle, segurança e eficiência! 🚀
 
-Adquira agora [clicando aqui!](https://pay.kiwify.com.br/akcGXnQ) </br>
+Adquira agora [clicando aqui!](https://www.ozapgpt.com.br/) </br>
 Tire suas dúvidas via [WhatsApp](https://wa.me/5551981995600)  </br>
