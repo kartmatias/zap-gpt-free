@@ -1,0 +1,73 @@
+sudo dnf update -y && sudo dnf install -y \
+  ca-certificates \
+  liberation-fonts \
+  alsa-lib \
+  atk \
+  atk-bridge \
+  glibc \
+  cairo \
+  cups-libs \
+  dbus-libs \
+  expat \
+  fontconfig \
+  mesa-libgbm \
+  glib2 \
+  gtk3 \
+  nspr \
+  nss \
+  pango \
+  libX11 \
+  libX11-xcb \
+  libxcb \
+  libXcomposite \
+  libXcursor \
+  libXdamage \
+  libXext \
+  libXfixes \
+  libXi \
+  libXrandr \
+  libXrender \
+  libXScrnSaver \
+  libXtst \
+  redhat-lsb \
+  wget \
+  xdg-utils
+
+
+sudo dnf check-update && sudo dnf install -y \
+ca-certificates \
+liberation-fonts \
+alsa-lib \
+at-spi2-atk \
+atk \
+glibc \
+cairo \
+cups-libs \
+dbus-libs \
+expat \
+fontconfig \
+mesa-libgbm \
+libgcc \
+glib2 \
+gtk3 \
+nspr \
+nss \
+pango \
+pangox-compat \
+libstdc++ \
+libX11 \
+libX11-xcb \
+libxcb \
+libXcomposite \
+libXcursor \
+libXdamage \
+libXext \
+libXfixes \
+libXi \
+libXrandr \
+libXrender \
+libXScrnSaver \
+libXtst \
+redhat-lsb-core \
+wget \
+xdg-utils
