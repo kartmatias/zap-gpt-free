@@ -1,8 +1,11 @@
-import { type Whatsapp } from '@wppconnect-team/wppconnect';
+import { Whatsapp } from '@wppconnect-team/wppconnect';
+// Corrected import path for logger
+import { logger } from '../index';
 
 export function splitMessages(text: string): string[] {
+  // eslint-disable-next-line sonarjs/slow-regex
   const complexPattern =
-    /(http[s]?:\/\/[^\s]+)|(www\.[^\s]+)|([^\s]+@[^\s]+\.[^\s]+)|(["'].*?["'])|(\b\d+\.\s)|(\w+\.\w+)/g;
+    /((?:https?:\/\/|www\.)\S+)|(\S+@\S+\.\S+)|(["'].*?["'])/g;
   const placeholders = text.match(complexPattern) ?? [];
 
   const placeholder = 'PLACEHOLDER_';
@@ -12,7 +15,8 @@ export function splitMessages(text: string): string[] {
     () => `${placeholder}${currentIndex++}`
   );
 
-  const splitPattern = /(?<!\b\d+\.\s)(?<!\w+\.\w+)[^.?!]+(?:[.?!]+["']?|$)/g;
+  // eslint-disable-next-line sonarjs/slow-regex
+  const splitPattern = /[^.?!]+(?:[.?!]+["']?|$)/g;
   let parts = textWithPlaceholders.match(splitPattern) ?? ([] as string[]);
 
   if (placeholders.length > 0) {
@@ -42,10 +46,10 @@ export async function sendMessagesWithDelay({
     client
       .sendText(targetNumber, msg.trimStart())
       .then((result) => {
-        console.log('Mensagem enviada:', result.body);
+        logger.info('Mensagem enviada para %s: %s', targetNumber, result.body);
       })
       .catch((erro) => {
-        console.error('Erro ao enviar mensagem:', erro);
+        logger.error(erro, 'Erro ao enviar mensagem para %s', targetNumber);
       });
   }
 }
