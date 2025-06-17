@@ -1,6 +1,5 @@
-```json
 {
-  "name": "my-chatgpt-cli",
+  "name": "v-one-cli",
   "version": "1.0.0",
   "description": "A simple command-line interface to interact with the OpenAI Chat API",
   "main": "dist/index.js",
@@ -55,4 +54,3 @@
     "typescript": "^5.5.3"
   }
 }
-```
