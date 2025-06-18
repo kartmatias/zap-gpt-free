@@ -41,8 +41,12 @@ export async function mainOpenAI({
 
   const messages = await checkRunStatus({ threadId: thread.id, runId: run.id });
   const responseAI = messages.data[0]
-    .content[0] as OpenAI.Beta.Threads.Messages.MessageContentText;
-  return responseAI.text.value;
+    .content[0] as OpenAI.Beta.Threads.Messages.MessageContent;
+  // Assuming the content is of type 'text'
+  if (responseAI.type === 'text') {
+    return responseAI.text.value;
+  }
+  return '';
 }
 
 async function checkRunStatus({
