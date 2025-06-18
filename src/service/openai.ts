@@ -51,7 +51,7 @@ async function checkRunStatus({
 }: {
   threadId: string;
   runId: string;
-}): Promise<OpenAI.Beta.Threads.Messages.ThreadMessagesPage> {
+}): Promise<OpenAI.Beta.Threads.Messages.MessagesPage> {
   return await new Promise((resolve, _reject) => {
     const verify = async (): Promise<void> => {
       const runStatus = await openai.beta.threads.runs.retrieve(

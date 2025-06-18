@@ -1,4 +1,3 @@
-```typescript
 import wppconnect from '@wppconnect-team/wppconnect';
 import pino from 'pino';
 import dotenv from 'dotenv';
@@ -180,4 +179,3 @@ async function handleMessage(
     );
   }
 }
-```

@@ -1,4 +1,3 @@
-```typescript
 import express, { Request, Response, Router } from 'express';
 import cors from 'cors';
 import { logger } from './index.js'; // Corrected import path
@@ -127,7 +126,3 @@ export const startApiServer = (port: number) => {
   });
   return app; // Return app for testing or other uses
 };
-```
-This will recreate `src/api.ts` with the correct imports and endpoint definitions.
-
-Next, I'll recreate `src/index.ts` to ensure it's also correct.
